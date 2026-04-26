@@ -1,0 +1,37 @@
+Clause: You agree to binding arbitration and waive class action rights....
+True: 1 | Pred: 1 | Model said: you agree to binding arbitration and waive class a
+
+Clause: We may share your personal data with third parties for marketing....
+True: 1 | Pred: 0 | Model said: we may share your personal data with third parties
+
+Clause: This agreement renews automatically each month unless you cancel 30 da...
+True: 1 | Pred: 0 | Model said: this agreement renews automatically each month unl
+
+Clause: Your liability is limited to the amount you paid, not exceeding $50....
+True: 1 | Pred: 1 | Model said: your liability is limited to the amount you paid,
+
+Clause: We can change these terms at any time without prior notice....
+True: 1 | Pred: 0 | Model said: we can change these terms at any time without prio
+
+Clause: You may cancel your account at any time with 30 days written notice....
+True: 0 | Pred: 0 | Model said: you may cancel your account at any time with 30
+
+Clause: We collect only your email address to manage your account....
+True: 0 | Pred: 0 | Model said: we collect only your email address to manage your 
+
+Clause: We will notify you of any changes at least 14 days in advance....
+True: 0 | Pred: 0 | Model said: we will notify you of any changes at least 14
+
+Clause: This agreement is governed by the laws of your state of residence....
+True: 0 | Pred: 0 | Model said: this agreement is governed by the laws of your sta
+
+Clause: Your use of the service indicates acceptance of these terms....
+True: 0 | Pred: 0 | Model said: you are not a member of the service.
+
+===== Evaluation Results =====
+Accuracy:  70.00%
+Precision: 1.00
+Recall:    0.40
+Confusion matrix:
+[[5 0]
+ [3 2]]

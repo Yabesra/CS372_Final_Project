@@ -1,0 +1,20 @@
+name: tc_scanner
+channels:
+  - conda-forge
+  - pytorch
+  - huggingface
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - llvm-openmp
+  - pip:
+    - streamlit
+    - transformers
+    - torch
+    - sentence-transformers
+    - scikit-learn
+    - tqdm
+    - accelerate
+    - pypdf
