@@ -67,7 +67,6 @@ Confusion matrix:*(Rows: true labels, Columns: predicted labels; 0 = safe, 1 = r
 [[5 0]
  [3 2]]
 
-Individual Contributions
-
+## Individual Contributions
 Name: Yabesra Ewnetu
 Worked alone. All RAG, inference, UI, and evaluation logic was implemented from course assignments (LLM, RAG, Evaluation) with AI assistance only for the Streamlit boilerplate and PDF extraction.
