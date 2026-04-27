@@ -5,6 +5,16 @@
 - Python 3.9 (managed by conda environment)
 - Internet connection (to download models and dependencies on first run)
 
+## Remove the old environment (if it exists)
+
+Open a terminal. Then run:
+
+```bash
+conda deactivate
+conda env remove -n tc_scanner
+```
+This deletes the old environment completely.
+
 ## Step 1: Create the Conda environment
 
 Open a terminal and navigate to the project root (where `environment.yml` is located). Run:
