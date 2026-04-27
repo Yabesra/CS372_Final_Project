@@ -11,6 +11,10 @@ A Streamlit web application that extracts text from PDFs or pasted Terms & Condi
   - **Precision** (risk coverage) and **Recall** (risk detection)
 - Results are displayed instantly, along with the retrieved context used for scoring.
 
+## Quick Start
+Here’s how to set up / recreate the tc_scanner environment...
+(rest of your instructions)
+
 Here’s how to **set up / recreate** the tc_scanner environment.
 ## Remove the old environment (if it exists)
 
@@ -38,6 +42,11 @@ conda activate tc_scanner
 streamlit run src/app.py
 ```
 3. Upload a PDF or paste text, then click Analyze Document.
+
+
+## Video Links
+- [Demo video](videos/demo.mp4)
+- [Technical walkthrough](videos/tech_walkthrough.mp4)
 
 ## Evaluation
 
