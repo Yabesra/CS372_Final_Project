@@ -1,0 +1,14 @@
+The following below exists in evaluate.py to test our model
+
+GOLD_TEST_SET = [
+    ("You agree to binding arbitration and waive class action rights.", 1),
+    ("We may share your personal data with third parties for marketing.", 1),
+    ("This agreement renews automatically each month unless you cancel 30 days prior.", 1),
+    ("Your liability is limited to the amount you paid, not exceeding $50.", 1),
+    ("We can change these terms at any time without prior notice.", 1),
+    ("You may cancel your account at any time with 30 days written notice.", 0),
+    ("We collect only your email address to manage your account.", 0),
+    ("We will notify you of any changes at least 14 days in advance.", 0),
+    ("This agreement is governed by the laws of your state of residence.", 0),
+    ("Your use of the service indicates acceptance of these terms.", 0),
+]

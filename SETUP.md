@@ -33,3 +33,14 @@ conda activate tc_scanner
 streamlit run src/app.py
 ```
 On first run, the embedding model (all-MiniLM-L6-v2) and the language model (distilgpt2) will be downloaded automatically (~500 MB total). Subsequent runs will be much faster. This means the first run might need 2-5 minutes, but all subsquent runs will have wait times closer to 10-30 seconds.
+
+## To Use Evaluate.py:
+After it finishes, activate the environment:
+```bash
+conda activate tc_scanner
+```
+## Step 2: Run the app again
+```bash
+python src/evaluate.py
+```
+This will have the model rnning evaluations on our current test set
