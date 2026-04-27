@@ -12,6 +12,10 @@ model = AutoModel.from_pretrained(MODEL_NAME).to(device)
 
 
 def embed(texts):
+    """
+    function: converts text into dense vectors via mean 
+    pooling over last_hidden_state.
+    """
     inputs = tokenizer(
         texts,
         padding=True,
@@ -26,6 +30,10 @@ def embed(texts):
 
 
 def retrieve(query, chunks, chunk_embeddings, top_k=1):
+    """
+    function: computes cosine similarity between the query 
+    embedding and all chunk embeddings
+    """
     query_emb = embed([query])[0]
 
     sims = np.dot(chunk_embeddings, query_emb) / (
