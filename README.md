@@ -43,17 +43,19 @@ streamlit run src/app.py
 ```
 3. Upload a PDF or paste text, then click Analyze Document.
 
-
 ## Video Links
-- [Demo video]
-[![Watch the video](https://youtu.be/aV61LOzrsWk)](https://youtu.be/aV61LOzrsWk)
-Click the link above or paste this link into your browser: https://youtu.be/aV61LOzrsWk
-Slides for Demo:
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3tPC_3_GjB-soAE_reOxYR4DDmSJTaIwnWSYnAyDnRH-Z6b63ku7FfCYmcqrfwMN4h5-ZjDerM8bR/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-- [Technical walkthrough]
-[![Watch the video](https://youtu.be/oEzHN3xfsnQ)](https://youtu.be/oEzHN3xfsnQ)
-Click the link above or paste this link into your browser: https://youtu.be/oEzHN3xfsnQ
+### 📺 Demo Video
+[![Watch the Demo](https://shields.io)](https://youtu.be/aV61LOzrsWk)  
+*Or use this link:* [https://youtu.be/aV61LOzrsWk](https://youtu.be/aV61LOzrsWk)
+
+### 📊 Demo Slides
+[Click here to view the presentation slides](https://docs.google.com/presentation/d/e/2PACX-1vT3tPC_3_GjB-soAE_reOxYR4DDmSJTaIwnWSYnAyDnRH-Z6b63ku7FfCYmcqrfwMN4h5-ZjDerM8bR/pub)
+
+### ⚙️ Technical Walkthrough
+[![Watch the Walkthrough](https://shields.io)](https://youtu.be/oEzHN3xfsnQ)  
+*Or use this link:* [https://youtu.be/oEzHN3xfsnQ](https://youtu.be/oEzHN3xfsnQ)
+
 
 ## Evaluation
 
