@@ -60,7 +60,6 @@ streamlit run src/app.py
 ## Evaluation
 
 We evaluated the system on a gold‑standard test set of 10 hand‑labeled clauses (5 risky, 5 safe). The model (or fallback heuristic) produced the following metrics:
-===== Evaluation Results =====
 Accuracy:  70.00%
 Precision: 1.00
 Recall:    0.40
