@@ -38,10 +38,23 @@ def evaluate_answer(predicted, ground_truth):
 # 3. Fallback risk keyword scoring (same as in app.py)
 # -----------------------------
 RISK_WEIGHTS = {
-    "arbitration": 3, "liability": 2, "indemnify": 3, "terminate": 2,
-    "without notice": 3, "share your data": 2, "auto-renew": 1, "restrict": 1,
-    "close account": 2, "waive": 3, "class action": 3, "not responsible": 2,
-    "disclaim": 2, "sole discretion": 2,
+    "arbitration": 5,
+    "class action": 5,
+    "waive": 5,
+    "indemnify": 5,
+    "without notice": 5,
+    "liability": 2,
+    "not responsible": 4,
+    "disclaim": 3,
+    "terminate": 3,
+    "sole discretion": 4,
+    "close account": 3,
+    "share your data": 3,
+    "disclosure": 2,
+    "auto-renew": 2,
+    "restrict": 2,
+    "own risk": 2,
+    "cannot guarantee": 2,
 }
 NEGATION_WORDS = {"not", "no", "never", "without", "exclude", "except", "doesn't", "does not"}
 

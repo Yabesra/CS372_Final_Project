@@ -180,7 +180,7 @@ if tc_text:
             st.error("No relevant context found.")
             st.stop()
 
-        # Step 3: Generate model answer (optional, for display)
+        # Step 3: Generate model answer
         with st.spinner("Generating analysis (few seconds)..."):
             try:
                 model_answer = rag_answer(query, context)
