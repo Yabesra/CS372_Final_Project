@@ -47,7 +47,7 @@ streamlit run src/app.py
 ## Video Links
 - [Demo video]
 [![Watch the video](https://youtu.be/aV61LOzrsWk)](https://youtu.be/aV61LOzrsWk)
-
+Click the link below or paste this link in your browswer: https://youtu.be/aV61LOzrsWk
 - [Technical walkthrough]
 
 ## Evaluation
