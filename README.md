@@ -45,8 +45,10 @@ streamlit run src/app.py
 
 
 ## Video Links
-- [Demo video](videos/demo.mp4)
-- [Technical walkthrough](videos/tech_walkthrough.mp4)
+- [Demo video]
+[![Watch the video](https://youtu.be/aV61LOzrsWk)](https://youtu.be/aV61LOzrsWk)
+
+- [Technical walkthrough]
 
 ## Evaluation
 
