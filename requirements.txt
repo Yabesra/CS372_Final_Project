@@ -1,2 +1,0 @@
-A list of Python dependencies:
-pip install torch transformers numpy
