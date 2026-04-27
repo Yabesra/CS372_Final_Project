@@ -13,9 +13,7 @@ A Streamlit web application that extracts text from PDFs or pasted Terms & Condi
 
 ## Quick Start
 Here’s how to set up / recreate the tc_scanner environment...
-(rest of your instructions)
 
-Here’s how to **set up / recreate** the tc_scanner environment.
 ## Remove the old environment (if it exists)
 
 Open a terminal. Then run:
