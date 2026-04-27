@@ -2,7 +2,10 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+#chose a smaller model for faster inference (distilgpt2 is a distilled version of gpt2, optimized for speed and smaller size)
+#Phi‑1.5 is better for accuracy, but very slow
 MODEL_NAME = "distilgpt2"
+
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 print("Loading model...")
